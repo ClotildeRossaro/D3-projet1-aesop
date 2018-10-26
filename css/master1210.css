@@ -49,14 +49,28 @@ header a {
 section {
   min-height: 90vh;
   padding: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.content {
+  flex-basis: 640px;
+}
+
+.illustration {
+  flex-basis: 320px;
 }
 
 .odd {
-  background: rgb(145, 322, 336);
+  background: rgb(0, 0, 0);
+
+    flex-direction: row-reverse;
 }
 
 .even {
-  background: rgb(412, 130, 588);
+  background: rgb(0, 0, 0);
 }
 
 /* Nous souhaitons que les images soient responsives... c'est à dire n'éxcèdent pas une certaine largeur ET se redimensionnent avec leur parent */
@@ -83,8 +97,23 @@ footer {
   color : #fff;
 }
 
-
+#section01 {
+  color :pink;
+}
+#section02 {
+  color: pink
+}
+#section03{
+  color: pink
+}
+#section04{
+  color: pink
+}
+#section05{
+  color: pink
+}
 /*
+
 
 // Small devices
 
